@@ -26,7 +26,7 @@ For completness, list libraries used in the project is listed below:
 
 Due to size restrictions there is missing a file DogVGG16Data.npz which should be normally found in the bottleneck_features folder. Also note that only a sample of available data has been uploaded on Github due to storage limitations.
 
-It is highly recommended to run the Jupyter Notebook only when you have access to GPU due to performance issues should you run CNN on your CPU. When ru
+It is highly recommended to run the Jupyter Notebook only when you have access to GPU due to performance issues should you run CNN on your CPU.
 
 ## Project Motivation<a name="motivation"></a>
 
