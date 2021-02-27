@@ -48,7 +48,7 @@ Other important folders include:
 ## Results <a name="results"></a>
 The result of this project are presented on a blog post (link). Additionally one can read the provided 'dog_app.html' to see all the steps I took and results achieved when I created a final version of this project.
 
-Summing up, the accuracy of the model built by my from scratch reached **20.57%** after 30 epochs. The accuracy of model build on top of Resnet50 reached reasonable **80.74%**.
+Summing up, the accuracy of the model built by my from scratch reached **5.14%** after just 5 epochs. The accuracy of model build on top of Resnet50 reached reasonable **79.30%** after 20 epochs.
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Credit for provided data and structure of the project goes to Udacity.com and their partners. Concerning my code, feel free using is in line with the MIT licence.
