@@ -12,9 +12,8 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.\*. 
 
-For completness, list libraries used in the project is listed below:
+It is highly recommended to run the Jupyter Notebook only when you have access to GPU due to performance issues should you run CNN on your CPU. On your machine you should have installed Python 3.\* with Anaconda packages, ensuring that the following libraries are also available (where keras is the single most important one):
 - sklearn
 - keras
 - numpy
@@ -24,9 +23,7 @@ For completness, list libraries used in the project is listed below:
 - random
 - matplotlib
 
-Due to size restrictions there is missing a file DogVGG16Data.npz which should be normally found in the bottleneck_features folder. Also note that only a sample of available data has been uploaded on Github due to storage limitations.
-
-It is highly recommended to run the Jupyter Notebook only when you have access to GPU due to performance issues should you run CNN on your CPU.
+Due to size restrictions there is missing a file DogVGG16Data.npz which should be normally found in the bottleneck_features folder. For this reason a part of the code won't work however that does not impact the final algorithm.
 
 ## Project Motivation<a name="motivation"></a>
 
