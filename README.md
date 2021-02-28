@@ -24,6 +24,7 @@ It is highly recommended to run the Jupyter Notebook only when you have access t
 - matplotlib
 
 Due to size restrictions there is missing a file DogVGG16Data.npz which should be normally found in the bottleneck_features folder. For this reason a part of the code won't work however that does not impact the final algorithm.
+Note that there are missing data due to Udacity project submission requirements.
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -40,13 +41,13 @@ Apart from that there are following files in the main folder which need mentioni
 - 'extract_bottleneck_features.py' - file provided by Udacity, used to read pretrained models provided by Keras using provided preprocessed inputs
 
 Other important folders include:
-- _data_, which consists of images used to train, validate and test model,
+- _data_, which should consists of images used to train, validate and test model, but is empty to allow the project to be submitted,
 - _bottleneck_features_, including Resnet50 preprocessed inputs provided by Udacity. There should be also a respective file for VGG16 however due to storage limitations (it is 850mb of size) it could not be uploaded to Github
 - _saved_models_, which includes parameters of the best models trained in this project
 - _images_, including images feeding the Jupyter Notebook as well as a few used to test the result of the algorithm
 
 ## Results <a name="results"></a>
-The result of this project are presented on a blog post (link). Additionally one can read the provided 'dog_app.html' to see all the steps I took and results achieved when I created a final version of this project.
+The result of this project are presented on a [blog post](https://medium.com/@banach.michal/ouch-whats-that-or-how-to-apply-cnn-to-identify-dog-breed-af94c52d7d12). Additionally one can read the provided 'dog_app.html' to see all the steps I took and results achieved when I created a final version of this project.
 
 Summing up, the accuracy of the model built by my from scratch reached **5.14%** after just 5 epochs. The accuracy of model build on top of Resnet50 reached reasonable **79.30%** after 20 epochs.
 
