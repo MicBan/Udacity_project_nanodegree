@@ -24,6 +24,7 @@ It is highly recommended to run the Jupyter Notebook only when you have access t
 - matplotlib
 
 Due to size restrictions there is missing a file DogVGG16Data.npz which should be normally found in the bottleneck_features folder. For this reason a part of the code won't work however that does not impact the final algorithm.
+Note that there are missing data due to Udacity project submission requirements.
 
 ## Project Motivation<a name="motivation"></a>
 
@@ -40,7 +41,7 @@ Apart from that there are following files in the main folder which need mentioni
 - 'extract_bottleneck_features.py' - file provided by Udacity, used to read pretrained models provided by Keras using provided preprocessed inputs
 
 Other important folders include:
-- _data_, which consists of images used to train, validate and test model,
+- _data_, which should consists of images used to train, validate and test model, but is empty to allow the project to be submitted,
 - _bottleneck_features_, including Resnet50 preprocessed inputs provided by Udacity. There should be also a respective file for VGG16 however due to storage limitations (it is 850mb of size) it could not be uploaded to Github
 - _saved_models_, which includes parameters of the best models trained in this project
 - _images_, including images feeding the Jupyter Notebook as well as a few used to test the result of the algorithm
