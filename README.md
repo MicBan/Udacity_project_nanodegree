@@ -46,7 +46,7 @@ Other important folders include:
 - _images_, including images feeding the Jupyter Notebook as well as a few used to test the result of the algorithm
 
 ## Results <a name="results"></a>
-The result of this project are presented on a blog post (link). Additionally one can read the provided 'dog_app.html' to see all the steps I took and results achieved when I created a final version of this project.
+The result of this project are presented on a [blog post](https://medium.com/@banach.michal/ouch-whats-that-or-how-to-apply-cnn-to-identify-dog-breed-af94c52d7d12). Additionally one can read the provided 'dog_app.html' to see all the steps I took and results achieved when I created a final version of this project.
 
 Summing up, the accuracy of the model built by my from scratch reached **5.14%** after just 5 epochs. The accuracy of model build on top of Resnet50 reached reasonable **79.30%** after 20 epochs.
 
